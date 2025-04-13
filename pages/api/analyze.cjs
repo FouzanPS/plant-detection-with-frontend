@@ -10,7 +10,7 @@ const PORT = 4050;
 
 const ANALYZE_FOLDER = path.join(__dirname, '..', '..', 'toanalyze');
 
-const FLASK_API_URL = 'http://127.0.0.1:5000/checkdisease';
+const FLASK_API_URL = 'http://127.0.0.1:5050/checkdisease';
 
 app.use(cors());
 app.use(express.json());
